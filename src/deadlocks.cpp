@@ -47,10 +47,10 @@ int main() {
 	//not another
 //	m.lock();
 //	m.lock();
-
-	//a realistic way to
-	//do the above but same situation
-//	fun1();
+//
+//	//a realistic way to
+//	//do the above but same situation
+	fun1();
 
 	//the threaded way with 2 mutexes
 	thread t1(f1, NUMB_TIMES);
